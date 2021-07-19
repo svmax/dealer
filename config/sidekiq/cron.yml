@@ -1,0 +1,6 @@
+:schedule:
+  indexer_worker:
+    description: 'Fetching faker server every hour'
+    queue: indexer_worker
+    class: IndexerWorker
+    every: 1 hour

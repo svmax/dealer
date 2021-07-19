@@ -1,0 +1,116 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://fakerapi.it/api/v1/companies?_quantity=200&_seed=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - fakerapi.it
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.16
+      Cache-Control:
+      - no-cache, private
+      Date:
+      - Mon, 19 Jul 2021 07:45:52 GMT
+      X-Ratelimit-Limit:
+      - '30'
+      X-Ratelimit-Remaining:
+      - '29'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Headers:
+      - Content-Type, Authorization, X-Requested-With
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":"OK","code":200,"total":8,"data":[{"name":"Stamm, Prohaska
+        and Stehr","email":"onie.bruen@hotmail.com","vat":"5146744297","phone":"+9814138416082","country":"New
+        Caledonia","addresses":[{"street":"593 Marks Mission Apt. 320","streetName":"Crist
+        Falls","buildingNumber":"23754","city":"Denabury","zipcode":"18702-1529","country":"Kuwait","county_code":"NZ","latitude":65.314388,"longitude":-0.51798},{"street":"3184
+        Rippin Crossing Apt. 500","streetName":"Rickey Cliff","buildingNumber":"75052","city":"Lake
+        Sharonton","zipcode":"12715","country":"Lebanon","county_code":"MQ","latitude":-12.474792,"longitude":-98.635679},{"street":"27674
+        Heidenreich Stream","streetName":"Murazik Fall","buildingNumber":"4640","city":"Lake
+        Madisen","zipcode":"38464-9841","country":"Senegal","county_code":"ZA","latitude":-14.818351,"longitude":-136.985472}],"website":"http:\/\/senger.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Leonor","lastname":"Rutherford","email":"idella.bergstrom@towne.com","phone":"+2970580314493","birthday":"1994-09-24","gender":"female","address":{"street":"52393
+        Willms Glens Suite 471","streetName":"Deon Canyon","buildingNumber":"79831","city":"Kaelynhaven","zipcode":"55363","country":"Russian
+        Federation","county_code":"IQ","latitude":-20.359821,"longitude":-38.184015},"website":"http:\/\/cummerata.org","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Larkin
+        Ltd","email":"cyrus10@yahoo.com","vat":"857657809","phone":"+1977633390540","country":"Hong
+        Kong","addresses":[{"street":"1728 Ofelia Freeway","streetName":"Johnston
+        Cove","buildingNumber":"636","city":"West Jaylin","zipcode":"41490-5833","country":"Chad","county_code":"NG","latitude":-15.885641,"longitude":-17.4296},{"street":"866
+        Vinnie Villages Suite 738","streetName":"Randi Field","buildingNumber":"85787","city":"West
+        Perry","zipcode":"53214-4440","country":"Brazil","county_code":"AR","latitude":50.041468,"longitude":26.983274}],"website":"http:\/\/will.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Geoffrey","lastname":"Tremblay","email":"mmclaughlin@kuhlman.com","phone":"+7397253992302","birthday":"1999-03-20","gender":"male","address":{"street":"153
+        Goldner Spurs Suite 994","streetName":"Bosco Green","buildingNumber":"518","city":"Thompsonburgh","zipcode":"78739","country":"Madagascar","county_code":"PM","latitude":39.764585,"longitude":8.754642},"website":"http:\/\/wisozk.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Auer
+        Ltd","email":"bernhard.gisselle@mckenzie.com","vat":"06603570174","phone":"+7375842588568","country":"India","addresses":[{"street":"89885
+        Labadie Springs Apt. 643","streetName":"Otis Creek","buildingNumber":"721","city":"Port
+        Layne","zipcode":"71824-8128","country":"Antarctica (the territory South of
+        60 deg S)","county_code":"CL","latitude":-48.676675,"longitude":-15.239525}],"website":"http:\/\/howe.org","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Kareem","lastname":"Little","email":"swaniawski.jarret@kihn.com","phone":"+3754180952525","birthday":"1935-05-14","gender":"male","address":{"street":"51855
+        Adela Springs","streetName":"Willy Meadows","buildingNumber":"79567","city":"Jaredborough","zipcode":"11063-3807","country":"Burundi","county_code":"CC","latitude":-15.39719,"longitude":160.809885},"website":"http:\/\/stanton.info","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Breitenberg,
+        Streich and Kemmer","email":"frami.angus@gmail.com","vat":"06674614108","phone":"+1013237033615","country":"Burkina
+        Faso","addresses":[{"street":"947 Coleman Views Suite 893","streetName":"Brionna
+        Gateway","buildingNumber":"92008","city":"Baronfurt","zipcode":"23282-7278","country":"Belarus","county_code":"ME","latitude":36.407563,"longitude":-127.510111},{"street":"1496
+        Sauer Wells","streetName":"Johns Port","buildingNumber":"2539","city":"Daronville","zipcode":"07640-1534","country":"Gabon","county_code":"UZ","latitude":-28.108819,"longitude":113.766896},{"street":"64189
+        Ara Creek","streetName":"Beryl Ports","buildingNumber":"85691","city":"North
+        Marlonville","zipcode":"73068","country":"Monaco","county_code":"CU","latitude":46.170051,"longitude":-164.473547}],"website":"http:\/\/wilderman.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Rebecca","lastname":"Bartoletti","email":"gkovacek@gmail.com","phone":"+1692399242651","birthday":"1963-06-10","gender":"female","address":{"street":"379
+        Aurelia Stravenue","streetName":"Kaycee Route","buildingNumber":"53909","city":"Mistyville","zipcode":"91746-6704","country":"Saint
+        Helena","county_code":"SI","latitude":52.347424,"longitude":27.3254},"website":"http:\/\/jones.biz","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Auer-Walker","email":"maddison05@gmail.com","vat":"257574123","phone":"+2249569687436","country":"American
+        Samoa","addresses":[{"street":"671 Nikolaus Stravenue","streetName":"Kirk
+        Court","buildingNumber":"298","city":"Karolannhaven","zipcode":"84093-3850","country":"Japan","county_code":"PR","latitude":56.7999,"longitude":103.179063},{"street":"139
+        Nienow Haven","streetName":"Ankunding Loop","buildingNumber":"236","city":"New
+        Destinistad","zipcode":"95350-5685","country":"Australia","county_code":"PN","latitude":63.407327,"longitude":-61.585902}],"website":"http:\/\/swaniawski.net","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Alexys","lastname":"Sawayn","email":"johann80@yahoo.com","phone":"+2578192391371","birthday":"1955-06-19","gender":"male","address":{"street":"71444
+        Hadley Corners","streetName":"Grant Turnpike","buildingNumber":"1745","city":"Kulasview","zipcode":"20183","country":"Greece","county_code":"CV","latitude":-38.559235,"longitude":132.450649},"website":"http:\/\/kessler.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Hickle,
+        Rath and Blanda","email":"lhyatt@donnelly.com","vat":"8086059649","phone":"+2615033977193","country":"Botswana","addresses":[{"street":"1213
+        Dickens Burg Apt. 425","streetName":"Adolfo Shoal","buildingNumber":"5902","city":"Parkershire","zipcode":"35843","country":"Falkland
+        Islands (Malvinas)","county_code":"WS","latitude":-56.65082,"longitude":16.209043},{"street":"7745
+        Tremaine Pines","streetName":"Megane Rapids","buildingNumber":"7660","city":"New
+        Alexandrea","zipcode":"75909-5316","country":"Iran","county_code":"BW","latitude":-12.294269,"longitude":21.129797},{"street":"1973
+        Lorna Plain Suite 152","streetName":"Tanya Ranch","buildingNumber":"4818","city":"South
+        Patsymouth","zipcode":"24937","country":"Bermuda","county_code":"AM","latitude":54.739259,"longitude":111.705264},{"street":"553
+        Kuphal Garden Suite 320","streetName":"Vern Union","buildingNumber":"5216","city":"North
+        Brittany","zipcode":"62900","country":"Andorra","county_code":"CO","latitude":-24.144435,"longitude":-126.202761}],"website":"http:\/\/williamson.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Martine","lastname":"Gleason","email":"schaden.boyd@yahoo.com","phone":"+9913566710314","birthday":"1961-03-30","gender":"female","address":{"street":"5458
+        Dejuan Haven Apt. 212","streetName":"Kuhlman Burg","buildingNumber":"38286","city":"Dedricview","zipcode":"77265","country":"Croatia","county_code":"TT","latitude":51.521133,"longitude":164.404297},"website":"http:\/\/johns.net","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"King-Pagac","email":"irutherford@kovacek.com","vat":"530316954","phone":"+5611318957024","country":"Philippines","addresses":[{"street":"7263
+        Herzog Village","streetName":"Lysanne Lakes","buildingNumber":"3323","city":"Treutelbury","zipcode":"93644-2628","country":"New
+        Caledonia","county_code":"TC","latitude":60.524856,"longitude":160.900855}],"website":"http:\/\/schiller.biz","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Michale","lastname":"Pacocha","email":"shany05@hotmail.com","phone":"+6180904069054","birthday":"2019-08-16","gender":"male","address":{"street":"7757
+        Ryan Camp","streetName":"Grant Courts","buildingNumber":"96068","city":"McKenziestad","zipcode":"87923","country":"Netherlands","county_code":"CR","latitude":12.453353,"longitude":90.711017},"website":"http:\/\/erdman.com","image":"http:\/\/placeimg.com\/640\/480\/people"}},{"name":"Lemke-Hintz","email":"cortez.lynch@hotmail.com","vat":"03138905416","phone":"+6907023592238","country":"Ecuador","addresses":[{"street":"14679
+        Reece Crossroad","streetName":"Weimann Pines","buildingNumber":"8655","city":"Amirland","zipcode":"00333-5442","country":"Solomon
+        Islands","county_code":"CK","latitude":-34.556579,"longitude":162.465752},{"street":"103
+        Gavin Land","streetName":"Marjolaine Rapid","buildingNumber":"10906","city":"East
+        Ramiroville","zipcode":"82006-9489","country":"Solomon Islands","county_code":"KZ","latitude":-43.480665,"longitude":91.283525},{"street":"58676
+        Turcotte Roads","streetName":"Baumbach View","buildingNumber":"5135","city":"East
+        Wileyborough","zipcode":"80853","country":"Belgium","county_code":"SA","latitude":-83.733067,"longitude":122.5653},{"street":"12248
+        Gulgowski Rest","streetName":"Koepp Cape","buildingNumber":"2341","city":"North
+        Rachael","zipcode":"06058","country":"Uruguay","county_code":"BD","latitude":-36.683108,"longitude":-115.760272},{"street":"25935
+        Gulgowski Estate Apt. 250","streetName":"Skiles Springs","buildingNumber":"12776","city":"West
+        Monroeton","zipcode":"84823-0251","country":"Chile","county_code":"UZ","latitude":25.24335,"longitude":-162.529706}],"website":"http:\/\/grimes.com","image":"http:\/\/placeimg.com\/640\/480\/people","contact":{"firstname":"Remington","lastname":"Okuneva","email":"ltrantow@hotmail.com","phone":"+6290458269773","birthday":"1959-05-10","gender":"male","address":{"street":"67942
+        Dorian Crescent Apt. 042","streetName":"Margarita Burgs","buildingNumber":"89430","city":"Asialand","zipcode":"29265","country":"Ukraine","county_code":"BW","latitude":88.347224,"longitude":-121.81338},"website":"http:\/\/schowalter.biz","image":"http:\/\/placeimg.com\/640\/480\/people"}} ]}'
+  recorded_at: Mon, 19 Jul 2021 07:45:50 GMT
+recorded_with: VCR 6.0.0

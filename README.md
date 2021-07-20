@@ -10,13 +10,15 @@ Async dealer indexer
 * Redis
 * NodeJS
 * Foreman
-## Configurations using docker-compose:
-* `docker-compose up`
-* and fulfil DB with companies: `docker-compose run api bundle exec rake dealer:ensure_companies`
 
 ## Before setup
 * Copy `.env.example >> .env` in the root of the project and `js` forder to setup ENV variables.
 * Setup your own google API key (https://developers.google.com/maps/documentation/javascript/get-api-key) and save it into the `./js/.env`: `VUE_APP_GOOGLE_MAPS_API_KEY`
+
+
+## Configurations using docker-compose:
+* `docker-compose up`
+* and fulfil DB with companies: `docker-compose run api bundle exec rake dealer:ensure_companies`
 
 ## Configurations manually:
 ### Front end

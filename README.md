@@ -10,7 +10,11 @@ Async dealer indexer
 * Redis
 * NodeJS
 * Foreman
-## Configurations:
+## Configurations using docker-compose:
+* `docker-compose up`
+* and fulfil DB with companies: `docker-compose run api bundle exec rake dealer:ensure_companies`
+
+## Configurations manually:
 ### Front end
 * `cd ./js`
 * `npm install`

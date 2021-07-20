@@ -1,0 +1,26 @@
+# Ignore bundler config.
+/.bundle
+/.vscode
+
+.env
+.env.local
+
+# cache files
+cache
+
+db/*
+!db/.keep
+
+node_modules
+vendor/bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep

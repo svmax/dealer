@@ -14,12 +14,14 @@ Async dealer indexer
 * `docker-compose up`
 * and fulfil DB with companies: `docker-compose run api bundle exec rake dealer:ensure_companies`
 
+## Before setup
+* Copy `.env.example >> .env` in the root of the project and `js` forder to setup ENV variables.
+* Setup your own google API key (https://developers.google.com/maps/documentation/javascript/get-api-key) and save it into the `./js/.env`: `VUE_APP_GOOGLE_MAPS_API_KEY`
+
 ## Configurations manually:
 ### Front end
 * `cd ./js`
 * `npm install`
-* Copy `.env.example >> .env`
-* Setup your own google API key (https://developers.google.com/maps/documentation/javascript/get-api-key) and save it as ENV: `VUE_APP_GOOGLE_MAPS_API_KEY`
 * `npm run serve`
 
 ### Setup DB
@@ -29,7 +31,6 @@ Async dealer indexer
 ### Initial seed
 * `bundle exec rake dealer:ensure_companies`
 ### Back end
-* Copy `.env.example >> .env` and configure needed params for Faker API
 * `mongod --dbpath ./db`
 * `redis-server ./config/redis.conf`
 * `bundle exec sidekiq -C config/sidekiq/indexer.yml`
